@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from "minimist";
-import { roll } from "/lib/roll.is";
+import { roll } from "../lib/roll.is";
 
 const args = minimist(process.argv.slice(2));
 
